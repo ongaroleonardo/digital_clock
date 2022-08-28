@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="clock.png"> 
+        <meta charset="UTF-8">
+        <title>Digital Clock</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="change_format">
+            Change Format
+        </div>
+        <button id="changerFormat" class="session" onclick="changeFormat()">
+            24h
+        </button>
+        <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+        <script src="function.js"></script>
+    </body>
+</html>
